@@ -1017,18 +1017,21 @@ foreach ($result as $row) {
                                     </div>
 
                                     <div class="form-group">
-                                        <label for="" class="col-sm-2 control-label">Privacys</label>
-                                        <div class="col-sm-6">
-                                            <textarea class="form-control" name="privacy" style="height:140px;"><?php echo $privacy; ?></textarea>
+                                        <label for="" class="col-sm-2 control-label">Privacys </label>
+                                        <div class="col-sm-8">
+                                            <textarea class="form-control" name="privacy" id="editor1"><?php echo $privacy; ?></textarea>
+                                        </div>
+                                    </div>
+                                    
+
+                                    <div class="form-group">
+                                        <label for="" class="col-sm-2 control-label">Agreement </label>
+                                        <div class="col-sm-8">
+                                            <textarea class="form-control" name="agreement" id="editor2"><?php echo $agreement; ?></textarea>
                                         </div>
                                     </div>
 
-                                    <div class="form-group">
-                                        <label for="" class="col-sm-2 control-label">agreement</label>
-                                        <div class="col-sm-6">
-                                            <textarea class="form-control" name="agreement" style="height:140px;"><?php echo $agreement; ?></textarea>
-                                        </div>
-                                    </div>                                
+                                    
 
 
                                     <div class="form-group">

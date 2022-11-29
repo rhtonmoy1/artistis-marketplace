@@ -99,7 +99,7 @@ if (isset($_POST['form1'])) {
                                         cust_b_name,
                                         cust_b_cname,
                                         cust_b_phone,
-                                        cust_b_country,
+                                        -- cust_b_country,   //Error
                                         cust_b_address,
                                         cust_b_city,
                                         cust_b_state,
@@ -107,7 +107,7 @@ if (isset($_POST['form1'])) {
                                         cust_s_name,
                                         cust_s_cname,
                                         cust_s_phone,
-                                        cust_s_country,
+                                        -- cust_s_country,  //Error
                                         cust_s_address,
                                         cust_s_city,
                                         cust_s_state,
@@ -117,7 +117,7 @@ if (isset($_POST['form1'])) {
                                         cust_datetime,
                                         cust_timestamp,
                                         cust_status
-                                    ) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)");
+                                    ) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)");
         $statement->execute(array(
                                         strip_tags($_POST['cust_name']),
                                         strip_tags($_POST['cust_cname']),
@@ -133,8 +133,8 @@ if (isset($_POST['form1'])) {
                                         '',
                                         '',
                                         '',
-                                        '',
-                                        '',
+                                        // '',
+                                        // '',
                                         '',
                                         '',
                                         '',

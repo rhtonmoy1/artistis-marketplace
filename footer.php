@@ -135,7 +135,7 @@ This link will be active only for 24 hours.
 				<!-- Privacy Modal -->
 				<div class="modal" id="Privacy">
 					<div class="modal-dialog">
-						<div class="modal-content">
+						<div class="modal-content" role="document">
 
 							<!-- Modal Header -->
 							<div class="modal-header">
@@ -151,8 +151,7 @@ This link will be active only for 24 hours.
 
 							<!-- Modal footer -->
 							<div class="modal-footer">
-								<button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
-								<button type="button" class="btn btn-success" data-dismiss="modal">Accept</button>
+								<button type="button" class="btn btn-primary btn-lg btn-block" data-dismiss="modal">Accept</button>
 							</div>
 
 						</div>
@@ -163,7 +162,7 @@ This link will be active only for 24 hours.
 
 				<!-- Privacy Modal -->
 				<div class="modal" id="Agreement">
-					<div class="modal-dialog">
+					<div class="modal-dialog" role="document" >
 						<div class="modal-content">
 
 							<!-- Modal Header -->
@@ -179,8 +178,7 @@ This link will be active only for 24 hours.
 
 							<!-- Modal footer -->
 							<div class="modal-footer">
-								<button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
-								<button type="button" class="btn btn-success" data-dismiss="modal">Accept</button>
+								<button type="button" class="btn btn-primary btn-lg btn-block" data-dismiss="modal">Accept</button>
 							</div>
 
 						</div>
