@@ -16,7 +16,7 @@ if(isset($_POST['form1'])) {
 		$email = strip_tags($_POST['email']);
 		$password = strip_tags($_POST['password']);
 
-    	$statement = $pdo->prepare("SELECT * FROM tbl_user WHERE email=? AND status=?");
+    	$statement = $pdo->prepare("SELECT * FROM tbl_artist_user WHERE email=? AND status=?");
     	$statement->execute(array($email,'Active'));
     	$total = $statement->rowCount();    
         $result = $statement->fetchAll(PDO::FETCH_ASSOC);    
@@ -66,7 +66,7 @@ if(isset($_POST['form1'])) {
 
 <div class="login-box">
 	<div class="login-logo">
-		<b>Admin Panel</b>
+		<b>Artist Panel</b>
 	</div>
   	<div class="login-box-body">
     	<p class="login-box-msg">Log in to start your session</p>
